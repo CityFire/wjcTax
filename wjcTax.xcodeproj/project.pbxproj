@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EA95E21DBF04EF000C60DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA95E11DBF04EF000C60DF /* main.m */; };
+		04EA95E51DBF04EF000C60DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA95E41DBF04EF000C60DF /* AppDelegate.m */; };
+		04EA95E81DBF04EF000C60DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA95E71DBF04EF000C60DF /* ViewController.m */; };
+		04EA95EB1DBF04EF000C60DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA95E91DBF04EF000C60DF /* Main.storyboard */; };
+		04EA95ED1DBF04EF000C60DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA95EC1DBF04EF000C60DF /* Assets.xcassets */; };
+		04EA95F01DBF04EF000C60DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA95EE1DBF04EF000C60DF /* LaunchScreen.storyboard */; };
+		04EA95FB1DBF04EF000C60DF /* wjcTaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA95FA1DBF04EF000C60DF /* wjcTaxTests.m */; };
+		04EA960D1DBF8DFD000C60DF /* MockTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA960C1DBF8DFD000C60DF /* MockTableTests.m */; };
+		04EA961B1DBF8ED4000C60DF /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA960F1DBF8ED4000C60DF /* libOCMock.a */; };
+		04EA961C1DBF8F50000C60DF /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA960F1DBF8ED4000C60DF /* libOCMock.a */; };
+		04EA96211DBF9120000C60DF /* UILogicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA96201DBF9120000C60DF /* UILogicTest.m */; };
+		04EA96241DBF9585000C60DF /* TableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA96231DBF9585000C60DF /* TableDataSource.m */; };
+		04EA96271DBF95EE000C60DF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA96261DBF95EE000C60DF /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EA95F71DBF04EF000C60DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA95D51DBF04EF000C60DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EA95DC1DBF04EF000C60DF;
+			remoteInfo = wjcTax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EA95DD1DBF04EF000C60DF /* wjcTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wjcTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA95E11DBF04EF000C60DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EA95E31DBF04EF000C60DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EA95E41DBF04EF000C60DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EA95E61DBF04EF000C60DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EA95E71DBF04EF000C60DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EA95EA1DBF04EF000C60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EA95EC1DBF04EF000C60DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EA95EF1DBF04EF000C60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EA95F11DBF04EF000C60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA95F61DBF04EF000C60DF /* wjcTaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wjcTaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA95FA1DBF04EF000C60DF /* wjcTaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wjcTaxTests.m; sourceTree = "<group>"; };
+		04EA95FC1DBF04EF000C60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA960C1DBF8DFD000C60DF /* MockTableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockTableTests.m; sourceTree = "<group>"; };
+		04EA960F1DBF8ED4000C60DF /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		04EA96111DBF8ED4000C60DF /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		04EA96121DBF8ED4000C60DF /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		04EA96131DBF8ED4000C60DF /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		04EA96141DBF8ED4000C60DF /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		04EA96151DBF8ED4000C60DF /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		04EA96161DBF8ED4000C60DF /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		04EA96171DBF8ED4000C60DF /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		04EA96181DBF8ED4000C60DF /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		04EA96191DBF8ED4000C60DF /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		04EA961A1DBF8ED4000C60DF /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		04EA96201DBF9120000C60DF /* UILogicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILogicTest.m; path = ../wjcTax/UILogicTest.m; sourceTree = "<group>"; };
+		04EA96221DBF9585000C60DF /* TableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDataSource.h; sourceTree = "<group>"; };
+		04EA96231DBF9585000C60DF /* TableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDataSource.m; sourceTree = "<group>"; };
+		04EA96251DBF95EE000C60DF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		04EA96261DBF95EE000C60DF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EA95DA1DBF04EF000C60DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA961B1DBF8ED4000C60DF /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA95F31DBF04EF000C60DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA961C1DBF8F50000C60DF /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EA95D41DBF04EF000C60DF = {
+			isa = PBXGroup;
+			children = (
+				04EA960E1DBF8ED4000C60DF /* OCMock */,
+				04EA95DF1DBF04EF000C60DF /* wjcTax */,
+				04EA95F91DBF04EF000C60DF /* wjcTaxTests */,
+				04EA95DE1DBF04EF000C60DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EA95DE1DBF04EF000C60DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA95DD1DBF04EF000C60DF /* wjcTax.app */,
+				04EA95F61DBF04EF000C60DF /* wjcTaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EA95DF1DBF04EF000C60DF /* wjcTax */ = {
+			isa = PBXGroup;
+			children = (
+				04EA95E31DBF04EF000C60DF /* AppDelegate.h */,
+				04EA95E41DBF04EF000C60DF /* AppDelegate.m */,
+				04EA96221DBF9585000C60DF /* TableDataSource.h */,
+				04EA96231DBF9585000C60DF /* TableDataSource.m */,
+				04EA96251DBF95EE000C60DF /* TableViewController.h */,
+				04EA96261DBF95EE000C60DF /* TableViewController.m */,
+				04EA95E61DBF04EF000C60DF /* ViewController.h */,
+				04EA95E71DBF04EF000C60DF /* ViewController.m */,
+				04EA960C1DBF8DFD000C60DF /* MockTableTests.m */,
+				04EA95E91DBF04EF000C60DF /* Main.storyboard */,
+				04EA95EC1DBF04EF000C60DF /* Assets.xcassets */,
+				04EA95EE1DBF04EF000C60DF /* LaunchScreen.storyboard */,
+				04EA95F11DBF04EF000C60DF /* Info.plist */,
+				04EA95E01DBF04EF000C60DF /* Supporting Files */,
+			);
+			path = wjcTax;
+			sourceTree = "<group>";
+		};
+		04EA95E01DBF04EF000C60DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EA95E11DBF04EF000C60DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EA95F91DBF04EF000C60DF /* wjcTaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EA96201DBF9120000C60DF /* UILogicTest.m */,
+				04EA95FA1DBF04EF000C60DF /* wjcTaxTests.m */,
+				04EA95FC1DBF04EF000C60DF /* Info.plist */,
+			);
+			path = wjcTaxTests;
+			sourceTree = "<group>";
+		};
+		04EA960E1DBF8ED4000C60DF /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				04EA960F1DBF8ED4000C60DF /* libOCMock.a */,
+				04EA96101DBF8ED4000C60DF /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		04EA96101DBF8ED4000C60DF /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				04EA96111DBF8ED4000C60DF /* NSNotificationCenter+OCMAdditions.h */,
+				04EA96121DBF8ED4000C60DF /* OCMArg.h */,
+				04EA96131DBF8ED4000C60DF /* OCMConstraint.h */,
+				04EA96141DBF8ED4000C60DF /* OCMFunctions.h */,
+				04EA96151DBF8ED4000C60DF /* OCMLocation.h */,
+				04EA96161DBF8ED4000C60DF /* OCMMacroState.h */,
+				04EA96171DBF8ED4000C60DF /* OCMock.h */,
+				04EA96181DBF8ED4000C60DF /* OCMockObject.h */,
+				04EA96191DBF8ED4000C60DF /* OCMRecorder.h */,
+				04EA961A1DBF8ED4000C60DF /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EA95DC1DBF04EF000C60DF /* wjcTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA95FF1DBF04EF000C60DF /* Build configuration list for PBXNativeTarget "wjcTax" */;
+			buildPhases = (
+				04EA95D91DBF04EF000C60DF /* Sources */,
+				04EA95DA1DBF04EF000C60DF /* Frameworks */,
+				04EA95DB1DBF04EF000C60DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wjcTax;
+			productName = wjcTax;
+			productReference = 04EA95DD1DBF04EF000C60DF /* wjcTax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EA95F51DBF04EF000C60DF /* wjcTaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA96021DBF04EF000C60DF /* Build configuration list for PBXNativeTarget "wjcTaxTests" */;
+			buildPhases = (
+				04EA95F21DBF04EF000C60DF /* Sources */,
+				04EA95F31DBF04EF000C60DF /* Frameworks */,
+				04EA95F41DBF04EF000C60DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EA95F81DBF04EF000C60DF /* PBXTargetDependency */,
+			);
+			name = wjcTaxTests;
+			productName = wjcTaxTests;
+			productReference = 04EA95F61DBF04EF000C60DF /* wjcTaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EA95D51DBF04EF000C60DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wjc;
+				TargetAttributes = {
+					04EA95DC1DBF04EF000C60DF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04EA95F51DBF04EF000C60DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04EA95DC1DBF04EF000C60DF;
+					};
+				};
+			};
+			buildConfigurationList = 04EA95D81DBF04EF000C60DF /* Build configuration list for PBXProject "wjcTax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EA95D41DBF04EF000C60DF;
+			productRefGroup = 04EA95DE1DBF04EF000C60DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EA95DC1DBF04EF000C60DF /* wjcTax */,
+				04EA95F51DBF04EF000C60DF /* wjcTaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EA95DB1DBF04EF000C60DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA95F01DBF04EF000C60DF /* LaunchScreen.storyboard in Resources */,
+				04EA95ED1DBF04EF000C60DF /* Assets.xcassets in Resources */,
+				04EA95EB1DBF04EF000C60DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA95F41DBF04EF000C60DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EA95D91DBF04EF000C60DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA95E81DBF04EF000C60DF /* ViewController.m in Sources */,
+				04EA95E51DBF04EF000C60DF /* AppDelegate.m in Sources */,
+				04EA95E21DBF04EF000C60DF /* main.m in Sources */,
+				04EA96271DBF95EE000C60DF /* TableViewController.m in Sources */,
+				04EA96241DBF9585000C60DF /* TableDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA95F21DBF04EF000C60DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA960D1DBF8DFD000C60DF /* MockTableTests.m in Sources */,
+				04EA95FB1DBF04EF000C60DF /* wjcTaxTests.m in Sources */,
+				04EA96211DBF9120000C60DF /* UILogicTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EA95F81DBF04EF000C60DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EA95DC1DBF04EF000C60DF /* wjcTax */;
+			targetProxy = 04EA95F71DBF04EF000C60DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EA95E91DBF04EF000C60DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA95EA1DBF04EF000C60DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EA95EE1DBF04EF000C60DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA95EF1DBF04EF000C60DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EA95FD1DBF04EF000C60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EA95FE1DBF04EF000C60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EA96001DBF04EF000C60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wjcTax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.wjcTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EA96011DBF04EF000C60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wjcTax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.wjcTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04EA96031DBF04EF000C60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/OCMock";
+				INFOPLIST_FILE = wjcTaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.wjcTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wjcTax.app/wjcTax";
+			};
+			name = Debug;
+		};
+		04EA96041DBF04EF000C60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/OCMock";
+				INFOPLIST_FILE = wjcTaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.wjcTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wjcTax.app/wjcTax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EA95D81DBF04EF000C60DF /* Build configuration list for PBXProject "wjcTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA95FD1DBF04EF000C60DF /* Debug */,
+				04EA95FE1DBF04EF000C60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA95FF1DBF04EF000C60DF /* Build configuration list for PBXNativeTarget "wjcTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA96001DBF04EF000C60DF /* Debug */,
+				04EA96011DBF04EF000C60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EA96021DBF04EF000C60DF /* Build configuration list for PBXNativeTarget "wjcTaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA96031DBF04EF000C60DF /* Debug */,
+				04EA96041DBF04EF000C60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EA95D51DBF04EF000C60DF /* Project object */;
+}
